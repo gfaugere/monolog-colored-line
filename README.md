@@ -1,6 +1,12 @@
 # Colored LineFormatter for Monolog
 A simple Formatter that adds level-dependant colors to your logs.
 
+## Installation
+Install through composer: 
+```
+$ composer require gfaugere/monolog-colored-line
+```
+
 ## Basic usage
 Use it the same way you would use a `Monolog\LineFormatter`:
 
