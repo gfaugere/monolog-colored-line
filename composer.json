@@ -1,0 +1,25 @@
+{
+    "name": "gfaugere/monolog-colored-line",
+    "description": "A simple Formatter that adds level-dependant colors to your logs.",
+    "keywords": ["log", "monolog", "color", "colour"],
+    "require": {
+        "monolog/monolog": "^2.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Faugère Gaëtan",
+            "email": "gaetan@fauge.re"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "gfaugere\\Monolog\\" : "src/"
+        }
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^0.12.42",
+        "phpunit/phpunit": "^9.3",
+        "phpunit/php-code-coverage": "^9.1"
+    }
+}
